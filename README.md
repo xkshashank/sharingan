@@ -1,5 +1,4 @@
 # Sharingan
--------------
 xss whole script injection - chrome extension
 
 Description
