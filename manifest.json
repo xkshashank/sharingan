@@ -1,0 +1,22 @@
+{
+  "name": "Sharingan XSS blocker",
+  "version": "0.1",
+  "description": "xss blocker",
+  "manifest_version": 2,
+
+  "browser_action" : 
+  {
+	        "default_icon" : "uchiha.svg",
+		"default_popup" : "popup.html"
+  },
+
+
+  "permissions": [
+    "<all_urls>","webRequest","webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["bgp.js"],
+    "persistent": true
+  }
+}
+
